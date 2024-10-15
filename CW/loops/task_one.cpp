@@ -7,10 +7,10 @@ int main(){
     cout<<"choose the number n"<<endl;
     cin>>n;
     for(int i=1;i<=n;i++){
-        for(int j=i;j<=i;0){
-            cout<<j;
+        for(int j=1;j<=n;j++){
+            cout<<i;
         };
         cout<<endl;
-    
+    }
    return 0;
 }
